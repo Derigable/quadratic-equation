@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic equation</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <form action="/">
+        <div class="input-number">
+            <label for="a">Введите a:</label>
+            <input type="number" name="a" id="a" step=any required>
+        </div>
+        <div class="input-number">
+            <label for="b">Введите b:</label>
+            <input type="number" name="b" id="b" step=any required>
+        </div>
+        <div class="input-number">
+            <label for="c">Введите c:</label>
+            <input type="number" name="c" id="c" step=any required>
+        </div>    
+        <p class="center">
+            <span class="element-a">a</span>x<sup>2</sup> <span class="part-b"><span class="element-b">+ b</span>x</span> <span class="element-c">+ c</span> = 0
+        </p>   
+        <p class="submit-input center">
+            <input type="submit" value="Решить уравнение">
+        </p>
+        <p class="result center red">
+            Есть ли корни?          
+        </p>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+}
+
+form {
+    margin: auto;
+    font-size: 1.5em;
+}
+
+label {
+    margin-right: 1em;
+}
+
+.input-number {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+
+.center {
+    text-align: center;
+}
+
+.input-number input {
+    width: 4em;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.submit-input input {
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    padding: 10px 15px;
+}
+
+.red {
+    color: red;
+}
+
+.result {
+    margin-top: 0.5em;
+}
+
+.d-none {
+    display: none;
+}
